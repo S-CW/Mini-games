@@ -7,7 +7,7 @@ def get_words_from_text(text_path):
         text = f.read()
 
         # remove [text in here]
-        text = re.sub('\[(.+)\]', ' ', text)
+        text = re.sub(r'\[(.+)\]', ' ', text)
 
         text = ' '.join(text.split())   # replaces tab, enter, indent to space
         text.lower()

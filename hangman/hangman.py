@@ -1,10 +1,13 @@
 from re import A
 import requests, random, string
 
+# Source of word
 baseurl = 'https://www.randomlists.com/data/words.json'
 
 
-
+# Hangman Game
+# To start, run the file
+# In the terminal, key in the choice of letter and press enter
 
 def main_req(url):
     r = requests.get(url)
