@@ -8,8 +8,12 @@ Mini game develop based on python.
 
 ## How to use
 1. Clone or donwload the repository.
-2. Open the file with the mini game name.
-3. Select the file and run
+2. Install Dependencies Install the required dependencies from the requirements.txt file using pip.
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Open the file with the mini game name.
+4. Select the file and run
 
 ## Requirement
 1. [Python](https://www.python.org/)
